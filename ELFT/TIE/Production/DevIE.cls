@@ -1,7 +1,6 @@
-Class ELFT.TIE.Production.ELFT.TIE.Production.DevProduction Extends Ens.Production
+Class ELFT.TIE.Production.DevIE Extends Ens.Production
 {
 
-    
 XData ProductionDefinition
 {
 <Production Name="ELFT.TIE.Production.DevProduction" TestingEnabled="true" LogGeneralTraceEvents="true">
@@ -12,4 +11,5 @@ XData ProductionDefinition
   </Item>
 </Production>
 }
+
 }

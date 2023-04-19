@@ -1,0 +1,24 @@
+{
+    "objectscript.conn": {
+        "server": "default~ensemble",
+        "ns": "ELFT",
+        "active": true
+    },
+    "objectscript.export": {
+
+        "folder": "",
+        "addCategory": false,
+        "map": {},
+        "atelier": true,
+        "generated": false,
+        "filter": "",
+        "exactFilter": "",
+        "category": "*",
+        "noStorage": false,
+        "dontExportIfNoChanges": false,
+        "maxConcurrentConnections": 0,
+        "mapped": true
+    },
+    "workbench.settings.useSplitJSON": false,
+    "json.schemas": []
+}

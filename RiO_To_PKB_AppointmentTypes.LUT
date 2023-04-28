@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<lookupTable>
+<entry table="RiO_To_PKB_AppointmentTypes" key="Assessment">1</entry>
+<entry table="RiO_To_PKB_AppointmentTypes" key="First Appointment">1</entry>
+<entry table="RiO_To_PKB_AppointmentTypes" key="First Telephone Consultation">1</entry>
+<entry table="RiO_To_PKB_AppointmentTypes" key="Follow-Up Appointment">1</entry>
+<entry table="RiO_To_PKB_AppointmentTypes" key="Follow-Up Telephone Consultation">1</entry>
+<entry table="RiO_To_PKB_AppointmentTypes" key="Post discharge follow up">1</entry>
+<entry table="RiO_To_PKB_AppointmentTypes" key="Review">1</entry>
+<entry table="RiO_To_PKB_AppointmentTypes" key="Treatment">1</entry>
+</lookupTable>

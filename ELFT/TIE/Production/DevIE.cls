@@ -38,6 +38,15 @@ XData ProductionDefinition
   </Item>
   <Item Name="To_ARIH_ORU_TCP_HL7" Category="Barts,ARIH" ClassName="EnsLib.HL7.Operation.TCPOperation" PoolSize="1" Enabled="false" Foreground="false" Comment="" LogTraceEvents="false" Schedule="">
   </Item>
+   <Item Name="From_JAC_RDS_TCP_HL7" Category="" ClassName="EnsLib.HL7.Service.TCPService" PoolSize="1" Enabled="true" Foreground="false" Comment="" LogTraceEvents="false" Schedule="">
+    <Setting Target="Host" Name="MessageSchemaCategory">2.3</Setting>
+    <Setting Target="Host" Name="TargetConfigNames">RIO_Process</Setting>
+    <Setting Target="Adapter" Name="Port">34666</Setting>
+  </Item>
+  <Item Name="RIO_Process" Category="" ClassName="ELFT.TIE.Process.RIOProcess" PoolSize="1" Enabled="true" Foreground="false" Comment="" LogTraceEvents="true" Schedule="">
+  </Item>
+  <Item Name="To_RIO_SOAP_DischargeMed" Category="" ClassName="EnsLib.HL7.Operation.HTTPOperation" PoolSize="1" Enabled="true" Foreground="false" Comment="" LogTraceEvents="false" Schedule="">
+  </Item>
 </Production>
 }
 
